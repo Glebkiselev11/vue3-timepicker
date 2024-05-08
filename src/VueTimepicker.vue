@@ -603,6 +603,9 @@ export default {
       } else if (oldLength && oldLength >= 1) {
         this.$emit('error', [])
       }
+    },
+    modelValue() {
+      this.readValues()
     }
   },
 
